@@ -16,12 +16,6 @@
     <module>simpleEar</module>
     <module>simpleWar</module>
   </modules>
-  <dependencies>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-    </dependency>
-  </dependencies>
   <properties>
     <revision>1.0</revision>
     <sha1>0</sha1>
