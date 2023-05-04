@@ -24,6 +24,7 @@
     </dependency>
   </dependencies>
   <build>
+  	<finalName>${project.artifactId}</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-ear-plugin</artifactId>
@@ -34,6 +35,8 @@
               <contextRoot>/simple</contextRoot>
               <groupId>${project.groupId}</groupId>
               <artifactId>simpleWar</artifactId>
+              <uri>simpleWar.war</uri>
+              <bundleFileName>simpleWar.war</bundleFileName>
             </webModule>
           </modules>
         </configuration>
