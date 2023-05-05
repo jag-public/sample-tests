@@ -15,12 +15,6 @@
     <module>simpleWar</module>
     <module>simpleJar</module>
   </modules>
-  <dependencies>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-    </dependency>
-  </dependencies>
   <profiles>
     <profile>
       <id>installMyUtil</id>
