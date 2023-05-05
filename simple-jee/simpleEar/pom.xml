@@ -10,16 +10,6 @@
   <artifactId>simpleEar</artifactId>
   <packaging>ear</packaging>
   <dependencies>
-      <dependency>
-      <groupId>dev.sample.skinny.wars</groupId>
-      <artifactId>simpleJar</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>dev.poms</groupId>
-      <artifactId>myUtil</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-    </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>simpleWar</artifactId>
